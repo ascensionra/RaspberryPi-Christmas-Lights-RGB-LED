@@ -1,56 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Web Controllable Christmas Lights | Arul John</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="Web Controllable Christmas Lights on a 5 meter RGB LED.">
-<meta name="keywords" content="">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<style type="text/css">
-body { font-family:Arial,helvetica; }
-#status { display:none; }
-.okay { color:black; }
-.error { color:red; }
-</style>
+	<meta charset="utf-8" />
+	<title>Enterprise Apps Xmas!</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 </head>
 <body>
 <h1>Christmas Lights</h1>
 <p>This webpage lets you change our Christmas lights.</p>
 <div id="status"></div>
-<h3>Colour List</h3>
-<p><a href="#" class="hexcolour" id="hex_ff0000">RED</p>
-<p><a href="#" class="hexcolour" id="hex_ff0000">GREEN</p>
-<p><a href="#" class="hexcolour" id="hex_ff0000">BLUE</p>
-<p><a href="#" class="hexcolour" id="hex_a4c639">ANDROID GREEN</p>
-</div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>
-$(function() {
-$('.hexcolour').click(function() {
-  event.preventDefault();
-  var colourname = $(this).text();
-  var colourhex = $(this).attr("id");
-  $('#status').html("Changing the colour to " + colourname + ". Please wait...").fadeIn('slow');
-  $.ajax({
-    url: '/christmas/changecolour.php',
-    data: {"hex":colourhex},
-    success: function(jsonstr) {
-      if (jsonstr != '') {
-        json=JSON.parse(jsonstr);
-        if (json.status == false || json.status == 'off') {
-          // Display message and disappear after 4 seconds
-          $('#status').removeClass('okay').addClass('error').html('Sorry, the lights are off. Please try again at 5pm EST.').delay(4000).slideUp('slow');
-        } else {
-          $('#status').removeClass('error').addClass('okay').html(json.status);
-        }
-      }
-    },
-    error: function(req, status, err) { console.log('something went wrong', status, err); },
-    dataType: "text"
-  });
-});
-});
+<h3>Pick A Color!</h3>
+<canvas width="1280" height="1024" id="canvas_picker"></canvas>
+<!-- <div id="hex">HEX: <input type="text"></input></div>
+<div id="rgb">RGB: <input type="text"></input></div> -->
+
+<script type="text/javascript">
+	var canvas = document.getElementById('canvas_picker').getContext('2d');
+
+	// create an image object and get it’s source
+	var img = new Image();
+	img.src = 'colorpicker1.png';
+
+	// copy the image to the canvas
+	$(img).load(function(){
+	  canvas.drawImage(img,0,0);
+	});
+
+	// http://www.javascripter.net/faq/rgbtohex.htm
+	function rgbToHex(R,G,B) {return toHex(R)+toHex(G)+toHex(B)}
+	function toHex(n) {
+	  n = parseInt(n,10);
+	  if (isNaN(n)) return "00";
+	  n = Math.max(0,Math.min(n,255));
+	  return "0123456789ABCDEF".charAt((n-n%16)/16)  + "0123456789ABCDEF".charAt(n%16);
+	}
+	$('#canvas_picker').click(function(event){
+	  // getting user coordinates
+	  var x = event.pageX - this.offsetLeft;
+	  var y = event.pageY - this.offsetTop;
+	  // getting image data and RGB values
+	  var img_data = canvas.getImageData(x, y, 1, 1).data;
+	  var R = img_data[0];
+	  var G = img_data[1];
+	  var B = img_data[2];  var rgb = R + ',' + G + ',' + B;
+	  // convert RGB to HEX
+	  var hex = rgbToHex(R,G,B);
+	  $.ajax({
+		// url: '/changecolour.php',
+		url: 'http://172.16.1.49:5001/colour/' + hex,
+		success: function(jsonstr) {
+		  if (jsonstr != '') {
+		    json=JSON.parse(jsonstr);
+		    if (json.status == false || json.status == 'off') {
+		      // Display message and disappear after 4 seconds
+		      $('#status').removeClass('okay').addClass('error').html('Sorry, the lights are off. Please try again at 5pm EST.').delay(4000).slideUp('slow');
+		    } else {
+		      $('#status').removeClass('error').addClass('okay').html(json.status);
+		    }
+		  }
+		},
+		error: function(req, status, err) { console.log('something went wrong', status, err); },
+		dataType: "text"
+	  });
+	  // making the color the value of the input
+	  // $('#rgb input').val(rgb);
+	  // $('#hex input').val('#' + hex);
+	});
 </script>
+
 </body>
 </html>
