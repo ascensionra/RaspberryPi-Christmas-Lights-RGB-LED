@@ -1,0 +1,237 @@
+*** Starting uWSGI 2.0.15 (32bit) on [Sun Dec 10 16:43:21 2017] ***
+compiled with version: 6.3.0 20170516 on 08 December 2017 14:37:09
+os: Linux-4.9.59-v7+ #1047 SMP Sun Oct 29 12:19:23 GMT 2017
+nodename: raspberrypi_eapps
+machine: armv7l
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/pi/christmaslights
+writing pidfile to /home/pi/christmaslights/tmp/pids/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/pi/apps/christmaslights
+chdir(): No such file or directory [core/uwsgi.c line 2591]
+*** Starting uWSGI 2.0.15 (32bit) on [Sun Dec 10 16:44:09 2017] ***
+compiled with version: 6.3.0 20170516 on 08 December 2017 14:37:09
+os: Linux-4.9.59-v7+ #1047 SMP Sun Oct 29 12:19:23 GMT 2017
+nodename: raspberrypi_eapps
+machine: armv7l
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/pi/christmaslights
+writing pidfile to /home/pi/christmaslights/tmp/pids/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/pi/christmaslights
+your processes number limit is 7314
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :5001 fd 3
+Python version: 2.7.13 (default, Jan 19 2017, 14:48:08)  [GCC 6.3.0 20170124]
+Python main interpreter initialized at 0x1e3d178
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 184320 bytes (180 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1e3d178 pid: 1332 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1332)
+spawned uWSGI worker 1 (pid: 1334, cores: 1)
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (32bit) on [Sun Dec 10 20:52:33 2017] ***
+compiled with version: 6.3.0 20170516 on 08 December 2017 14:37:09
+os: Linux-4.9.59-v7+ #1047 SMP Sun Oct 29 12:19:23 GMT 2017
+nodename: raspberrypi_eapps
+machine: armv7l
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/pi/christmaslights
+writing pidfile to /home/pi/christmaslights/tmp/pids/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/pi/christmaslights
+your processes number limit is 7314
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :5001 fd 3
+Python version: 2.7.13 (default, Jan 19 2017, 14:48:08)  [GCC 6.3.0 20170124]
+Python main interpreter initialized at 0x1e7d178
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 184320 bytes (180 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e7d178 pid: 2903 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2903)
+spawned uWSGI worker 1 (pid: 2905, cores: 1)
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (32bit) on [Tue Dec 12 08:35:23 2017] ***
+compiled with version: 6.3.0 20170516 on 08 December 2017 14:37:09
+os: Linux-4.9.59-v7+ #1047 SMP Sun Oct 29 12:19:23 GMT 2017
+nodename: raspberrypi_eapps
+machine: armv7l
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/pi/christmaslights
+writing pidfile to /home/pi/christmaslights/tmp/pids/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/pi/christmaslights
+your processes number limit is 7314
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :5001 fd 3
+Python version: 2.7.13 (default, Jan 19 2017, 14:48:08)  [GCC 6.3.0 20170124]
+Python main interpreter initialized at 0xc98198
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 184320 bytes (180 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xc98198 pid: 6911 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6911)
+spawned uWSGI worker 1 (pid: 6913, cores: 1)
+[pid: 6913|app: 0|req: 1/1] 10.20.100.76 () {36 vars in 588 bytes} [Tue Dec 12 08:35:33 2017] GET /colour/DE1211 => generated 15 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 2/2] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:35:42 2017] GET /colour/fe1531 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 3/3] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:35:47 2017] GET /colour/77d24f => generated 15 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 4/4] 10.20.100.76 () {36 vars in 588 bytes} [Tue Dec 12 08:35:50 2017] GET /colour/01089E => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 5/5] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:35:52 2017] GET /colour/4679e3 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 6/6] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:35:57 2017] GET /colour/67085d => generated 15 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 7/7] 10.20.100.76 () {36 vars in 588 bytes} [Tue Dec 12 08:35:59 2017] GET /colour/000000 => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 8/8] 10.20.100.76 () {36 vars in 588 bytes} [Tue Dec 12 08:36:02 2017] GET /colour/FFFFFF => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 9/9] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:36:02 2017] GET /colour/e4248d => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 10/10] 10.20.100.76 () {36 vars in 588 bytes} [Tue Dec 12 08:36:03 2017] GET /colour/FFFFFF => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 11/11] 10.20.100.76 () {36 vars in 588 bytes} [Tue Dec 12 08:36:05 2017] GET /colour/E1E50C => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 12/12] 10.20.100.76 () {36 vars in 588 bytes} [Tue Dec 12 08:36:05 2017] GET /colour/1CD02F => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 13/13] 10.20.100.76 () {36 vars in 588 bytes} [Tue Dec 12 08:36:06 2017] GET /colour/D00153 => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 14/14] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:36:07 2017] GET /colour/15a0cd => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 15/15] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:36:12 2017] GET /colour/fb8f6e => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 16/16] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:36:17 2017] GET /colour/e6fb8a => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 17/17] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:36:22 2017] GET /colour/bb08b2 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 18/18] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:36:27 2017] GET /colour/f44cb6 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 19/19] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:36:32 2017] GET /colour/31a495 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 20/20] 10.20.100.76 () {36 vars in 588 bytes} [Tue Dec 12 08:36:33 2017] GET /colour/CA0D07 => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 21/21] 10.20.100.76 () {36 vars in 588 bytes} [Tue Dec 12 08:36:35 2017] GET /colour/920184 => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 22/22] 10.20.100.76 () {36 vars in 588 bytes} [Tue Dec 12 08:36:37 2017] GET /colour/011BD0 => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 23/23] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:36:37 2017] GET /colour/ad425f => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 24/24] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:36:42 2017] GET /colour/6f91d5 => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 25/25] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:36:47 2017] GET /colour/ccbfd3 => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 26/26] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:36:52 2017] GET /colour/766e53 => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 27/27] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:36:57 2017] GET /colour/c0b959 => generated 15 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 28/28] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:37:02 2017] GET /colour/5256e1 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 29/29] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:37:07 2017] GET /colour/6b1f1c => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 30/30] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:37:12 2017] GET /colour/afab18 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 31/31] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:37:18 2017] GET /colour/8b888c => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 32/32] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:37:23 2017] GET /colour/ed6ca1 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 33/33] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:37:28 2017] GET /colour/d88ba3 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 34/34] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:37:33 2017] GET /colour/118557 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 35/35] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:37:38 2017] GET /colour/f8a927 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 36/36] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:37:43 2017] GET /colour/1815f4 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 37/37] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:37:48 2017] GET /colour/b32ef2 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 38/38] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:37:53 2017] GET /colour/893724 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 39/39] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:37:58 2017] GET /colour/054f53 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 40/40] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:38:03 2017] GET /colour/6ffd12 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 41/41] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:38:08 2017] GET /colour/7a437b => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 42/42] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:38:13 2017] GET /colour/76b8ee => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 43/43] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:38:18 2017] GET /colour/10c798 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 44/44] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:38:23 2017] GET /colour/8e5725 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 45/45] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:38:28 2017] GET /colour/7895cc => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 46/46] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:38:33 2017] GET /colour/cfee35 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 47/47] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:38:38 2017] GET /colour/320f53 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 48/48] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:38:43 2017] GET /colour/74fad2 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 49/49] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:38:48 2017] GET /colour/f5b185 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 50/50] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:38:53 2017] GET /colour/696c5c => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 51/51] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:38:58 2017] GET /colour/69f48e => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 52/52] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:39:03 2017] GET /colour/23e5ad => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 53/53] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:39:08 2017] GET /colour/50fa57 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 54/54] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:39:13 2017] GET /colour/8aa4bb => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 55/55] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:39:18 2017] GET /colour/0a9de5 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 56/56] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:39:23 2017] GET /colour/8b0ebe => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 57/57] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:39:28 2017] GET /colour/dd86d8 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 58/58] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:39:33 2017] GET /colour/9bf26d => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 59/59] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:39:38 2017] GET /colour/37199c => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 60/60] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:39:43 2017] GET /colour/216276 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 61/61] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:39:48 2017] GET /colour/56eb12 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 62/62] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:39:53 2017] GET /colour/f01738 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 63/63] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:39:58 2017] GET /colour/e80bbc => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 64/64] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:40:03 2017] GET /colour/ba8ef5 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 65/65] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:40:08 2017] GET /colour/7eed62 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 66/66] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:40:13 2017] GET /colour/d6a981 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 67/67] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:40:18 2017] GET /colour/283179 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 68/68] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:40:23 2017] GET /colour/4bd0c5 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 69/69] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:40:29 2017] GET /colour/9da9ee => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 70/70] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:40:34 2017] GET /colour/f33417 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 71/71] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:40:39 2017] GET /colour/47bcf9 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 72/72] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:40:44 2017] GET /colour/f816ca => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 73/73] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:40:49 2017] GET /colour/543139 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 74/74] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:40:54 2017] GET /colour/67ef4a => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 75/75] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:40:59 2017] GET /colour/a52068 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 76/76] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:41:04 2017] GET /colour/7ab77b => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 77/77] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:41:09 2017] GET /colour/91df81 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 78/78] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:41:14 2017] GET /colour/8db02a => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 79/79] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:41:19 2017] GET /colour/b35b37 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 80/80] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:41:24 2017] GET /colour/bdf422 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 81/81] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:41:29 2017] GET /colour/22b545 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 82/82] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:41:34 2017] GET /colour/718a36 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 83/83] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:41:39 2017] GET /colour/a5ea4d => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 84/84] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:41:44 2017] GET /colour/cba9f2 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 85/85] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:41:49 2017] GET /colour/803705 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 86/86] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:41:54 2017] GET /colour/9fc48b => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 87/87] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:41:59 2017] GET /colour/297937 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 88/88] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:42:04 2017] GET /colour/f91952 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 89/89] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:42:09 2017] GET /colour/e64c5a => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 90/90] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:42:14 2017] GET /colour/9ac669 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 91/91] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:42:19 2017] GET /colour/291fa3 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 92/92] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:42:24 2017] GET /colour/3026be => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 93/93] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:42:29 2017] GET /colour/94d5eb => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 94/94] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:42:34 2017] GET /colour/4b77da => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 95/95] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:42:39 2017] GET /colour/728248 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 96/96] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:42:44 2017] GET /colour/ddc327 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 97/97] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:42:49 2017] GET /colour/cee0e2 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 98/98] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:42:54 2017] GET /colour/d75c04 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 99/99] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:42:59 2017] GET /colour/70901f => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 100/100] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:43:04 2017] GET /colour/2a6604 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 101/101] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:43:09 2017] GET /colour/c9104d => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 102/102] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:43:14 2017] GET /colour/458139 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 103/103] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:43:19 2017] GET /colour/3905e8 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 104/104] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:43:24 2017] GET /colour/c560b5 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 105/105] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:43:29 2017] GET /colour/0763f1 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 106/106] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:43:35 2017] GET /colour/eb0a87 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 107/107] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:43:40 2017] GET /colour/76a81e => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 108/108] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:43:45 2017] GET /colour/08e770 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 109/109] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:43:50 2017] GET /colour/35fb1e => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 110/110] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:43:55 2017] GET /colour/153a47 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 111/111] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:44:00 2017] GET /colour/7afeaf => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 112/112] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:44:05 2017] GET /colour/785ab5 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 113/113] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:44:10 2017] GET /colour/d10220 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 114/114] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:44:15 2017] GET /colour/aa8b0c => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 115/115] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:44:20 2017] GET /colour/30dd57 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 116/116] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:44:25 2017] GET /colour/aedb6a => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 117/117] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:44:30 2017] GET /colour/debc42 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 118/118] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:44:35 2017] GET /colour/e6d0b2 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 119/119] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:44:40 2017] GET /colour/5fa80e => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 120/120] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:44:45 2017] GET /colour/4daa33 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 121/121] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:44:50 2017] GET /colour/142abd => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 122/122] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:44:55 2017] GET /colour/792ddd => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 123/123] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:45:00 2017] GET /colour/be30d1 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 124/124] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:45:05 2017] GET /colour/d9e8a0 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 125/125] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:45:10 2017] GET /colour/f6195d => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 126/126] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:45:15 2017] GET /colour/0bc9d0 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6913|app: 0|req: 127/127] 127.0.0.1 () {28 vars in 362 bytes} [Tue Dec 12 08:45:20 2017] GET /colour/fe2586 => generated 15 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)

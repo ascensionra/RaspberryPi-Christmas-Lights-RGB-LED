@@ -7,7 +7,7 @@ def hello():
     return "Hello Folks!"
 
 @app.route("/colour/<rgb>")
-def change_colour(rgb, ip):
+def change_colour(rgb):
     pins = [17, 18, 22]
     rgb_list = hex_to_rgb(rgb)
     i = 0
